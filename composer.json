@@ -1,0 +1,41 @@
+{
+	"name": "sabina-talipova/silverstripe-threejs",
+	"description": "SilverStripe module for creating and working with ThreeJS library",
+	"type": "silverstripe-vendormodule",
+    "keywords": [
+        "silverstripe",
+        "scene",
+        "3d scene",
+        "three js"
+    ],
+    "license": "MIT",
+    "authors": [{
+        "name": "Sabina Talipova",
+        "email": "sabina.talipova@silverstripe.com"
+    }],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "repositories": [
+		{
+			"type": "vcs",
+			"url": "git@github.com:sabina-talipova/silverstripe-threejs.git"
+		}
+	],
+    "extra": {
+        "installer-name": "threejs",
+        "expose": [
+            "client/dist",
+            "client/lang"
+        ]
+    },
+    "autoload": {
+        "psr-4": {}
+    },
+	"require": {},
+	"config": {
+		"allow-plugins": {
+			"composer/installers": true,
+			"silverstripe/vendor-plugin": true
+		}
+	}
+}
