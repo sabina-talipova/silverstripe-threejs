@@ -1,2 +1,4 @@
 # silverstripe-threejs
-Silverstripe module for working with Three.js library
+Silverstripe module for working with Three.js library.
+
+Will be soon :)
