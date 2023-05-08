@@ -1,0 +1,35 @@
+{
+  "name": "silverstripe-threejs",
+  "version": "1.0.0",
+  "description": "Silverstripe module for working with ThreeJS library",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "build": "webpack --config webpack.config.js",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sabina-talipova/silverstripe-threejs.git"
+  },
+  "keywords": [
+    "silverstripe",
+    "3d",
+    "threejs"
+  ],
+  "author": "Sabina Talipova <sabina.talipova@silverstripe.com>",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/sabina-talipova/silverstripe-threejs/issues"
+  },
+  "homepage": "https://github.com/sabina-talipova/silverstripe-threejs#readme",
+  "dependencies": {
+    "three": "^0.142.0"
+  },
+  "devDependencies": {
+    "webpack": "^5.73.0",
+    "webpack-cli": "^4.10.0"
+  }
+}

@@ -4,4 +4,4 @@
 /Dockerfile.80
 
 # Silverstripe/PHP specific
-/vendor
+/node_modules
