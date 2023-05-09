@@ -15,12 +15,6 @@
     }],
     "minimum-stability": "dev",
     "prefer-stable": true,
-    "repositories": [
-		{
-			"type": "vcs",
-			"url": "git@github.com:sabina-talipova/silverstripe-threejs.git"
-		}
-	],
     "extra": {
         "installer-name": "threejs",
         "expose": [
